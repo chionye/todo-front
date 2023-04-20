@@ -1,7 +1,7 @@
 /** @format */
 
 import { Storage } from "../storage/Storage";
-const API_URL = "http://localhost:8080";
+const API_URL = "https://todo-api-z3zf.onrender.com";
 
 export const Api = (endpoint, payload, method) => {
   const token = Storage.get("user")
