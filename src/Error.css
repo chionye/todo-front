@@ -1,0 +1,25 @@
+.error-image {
+    width: 300px;
+    margin-top: 10%;
+}
+
+img {
+    width: 100%;
+}
+
+.error-title {
+    font-size: 32px;
+}
+.full-height {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+
+    .error-image {
+        margin-top: 20%;
+    }
+}

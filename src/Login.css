@@ -1,0 +1,41 @@
+:root {
+    --primary: #0092FF;
+    --secondary: #ff6f00;
+    --success: #05C91A;
+    --error: #F90606;
+    --light: #fafafa;
+    --dark: #00101d;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 2%;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.max-w-sm {
+    margin-top: 20px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    border: .8px solid var(--primary);
+
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        padding: 25% 2%;
+    }
+
+    .max-w-sm {
+        width: 80%;
+    }
+}

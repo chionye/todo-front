@@ -1,0 +1,140 @@
+input[type="checkbox"] {
+    width: 20px;
+    height: 16px;
+    margin-top: 5px;
+}
+
+.task input[type="text"],
+.task textarea {
+    border: none;
+    background-color: transparent;
+}
+
+.task input[type="text"]:focus,
+.task textarea:focus {
+    border: none;
+    outline: none;
+}
+
+.task {
+    width: 100%;
+    border-left: 4px solid var(--secondary);
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 10px 5px;
+    margin: 20px 0 40px 0;
+}
+
+.content {
+    margin-left: 5px;
+    width: 90%;
+}
+
+.task-title {
+    font-weight: 600;
+    font-size: 16px;
+    width: 100%;
+}
+
+.task-desc {
+    margin-top: 5px;
+    line-height: 20px;
+
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex-start {
+    display: flex;
+    align-items: start;
+}
+
+.task:hover {
+    box-shadow: var(--shadow);
+}
+
+.task-cat {
+    font-size: 12px;
+    color: var(--secondary);
+}
+
+
+.flex-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.flex-group .form-group {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.modal h2,
+.modal h3 {
+    margin: 5px 0;
+}
+
+.auto-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 10px;
+}
+
+.other {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reminder {
+    display: flex;
+    align-items: center;
+}
+
+.task-tag {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-right: 10px;
+    color: var(--primary);
+}
+
+.cat {
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+input.category {
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.strike{
+    text-decoration: line-through;
+}
+
+@media screen and (max-width: 600px) {
+    .task {
+        width: 100%;
+    }
+}

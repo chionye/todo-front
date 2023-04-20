@@ -1,0 +1,18 @@
+:root {
+    --primary: #0092FF;
+    --secondary: #ff6f00;
+    --success: #05C91A;
+    --error: #F90606;
+    --light: #fafafa;
+    --dark: #00101d;
+}
+
+.logo {
+    font-family: 'Noto Serif Hebrew', serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.blue {
+    color: var(--primary);
+}

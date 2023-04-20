@@ -1,0 +1,36 @@
+.category {
+    border: 1px solid var(--primary);
+    padding: 7px 10px;
+    border-radius: 15px;
+    color: var(--primary);
+}
+
+.category:hover,
+.category.select {
+    font-weight: 600;
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+.action {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    background-color: var(--primary);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.btn-lg {
+    display: block;
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

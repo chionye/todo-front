@@ -1,0 +1,40 @@
+:root {
+    --success: #05C91A;
+    --error: #F90606;
+    --white: #fafafa;
+}
+
+.alert {
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.success, .error {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.success {
+    color: var(--success);
+    border-color: var(--success);
+    
+}
+
+.error {
+    color: var(--error);
+    border-color: var(--error);
+}
+
+.mr {
+    margin-right: 5px;
+}

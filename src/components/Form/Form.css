@@ -1,0 +1,17 @@
+.form {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+label {
+    font-size: 14px;
+}
+
+input {
+    border: 1px solid var(--primary);
+}
+
+.form-group:hover label {
+    font-weight: 600;
+}
