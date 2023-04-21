@@ -40,12 +40,13 @@ export const Task = {
           />
           <div className='content'>
             <input
-              className={`task-title ${done ? "strike" : ""}`}
+              className={done ? 'strike': null}
               type='text'
               name='title'
               placeholder={title}
               onChange={handleChange}
               disabled={done}
+              id={'taskTitle'}
               onFocus={(e) => (e.target.value = e.target.placeholder)}
             />
             {description ? (
