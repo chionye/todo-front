@@ -1,5 +1,4 @@
 :root {
-  color-scheme: light dark;
   --primary: #0092FF;
   --secondary: #ff6f00;
   --success: #05C91A;
@@ -46,10 +45,6 @@ button {
   color: var(--primary);
   text-align: center;
 }
-/* 
-.dark {
-  color-scheme: dark;
-} */
 
 .flex-center {
   display: flex;
