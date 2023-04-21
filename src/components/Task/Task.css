@@ -17,7 +17,7 @@ input[type="checkbox"] {
 }
 
 .task {
-    width: 400px;
+    max-width: 350px;
     border-left: 4px solid var(--secondary);
     display: flex;
     align-items: start;
