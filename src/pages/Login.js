@@ -25,12 +25,14 @@ function Login() {
           if (data.id) {
             setSuccess("Login Successful!");
             Storage.set("user", JSON.stringify(data));
-            navigate("/dashboard");
+            setTimeout(() => {
+              navigate("/dashboard");
+            }, 1000);
           } else {
             setError(data.message);
             setTimeout(() => {
               setError("");
-            }, "3000");
+            }, 3000);
           }
         })
         .catch((err) => console.log(err));
