@@ -17,13 +17,13 @@ input[type="checkbox"] {
 }
 
 .task {
-    width: 100%;
+    width: 400px;
     border-left: 4px solid var(--secondary);
     display: flex;
     align-items: start;
     justify-content: space-between;
     padding: 10px 5px;
-    margin: 20px 0 40px 0;
+    margin: 20px auto 40px auto;
 }
 
 .content {
