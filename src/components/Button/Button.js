@@ -50,15 +50,4 @@ export const Button = {
       </button>
     );
   },
-  Toggle: () => {
-    const root = document.querySelector(":root");
-    const toggleMode = () => {
-      root.classList.toggle("dark");
-    };
-    return (
-      <button onClick={toggleMode} className='mr'>
-        <Icon icon='mdi:circle-half-full' width={24} />
-      </button>
-    );
-  },
 };
