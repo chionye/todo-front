@@ -146,7 +146,6 @@ function Dashboard() {
           <p>{user?.email}</p>
         </div>
         <div className='flex-center'>
-          <Button.Toggle />
           <Button.Sm label={"Log Out"} handleClick={logout} />
         </div>
       </header>
