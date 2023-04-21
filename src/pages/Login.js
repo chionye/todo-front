@@ -16,6 +16,7 @@ function Login() {
 
   const handleLogin = (e) => {
     e.preventDefault();
+    setSuccess("Please wait...")
     if (email && password) {
       const user = { email, password };
       Api(`/user/login`, user, "POST")
